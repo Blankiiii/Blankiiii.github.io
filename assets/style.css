@@ -1,4 +1,102 @@
+/*obvious*/
+html {
+    width: 100%;
+    height: 100%;
+}
 body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
     color: azure;
     background-color: rgba(26,24,28,255);
+}
+
+
+/*basic site*/
+.navbar {
+    border-bottom: 1px solid;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a {
+    color: azure;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color:  darkslategray
+}
+.navbar li {
+    float: left;
+}
+.copyright {
+    height: 5dvh;
+    width: 100dvw;
+}
+
+/*index.html*/
+.content {
+    height: 90dvh;
+    width: 100dvw;
+}
+
+
+/*boyfriend.html*/
+.hewant {
+    position:relative;
+    height: 80%;
+    width: 100%
+}
+.hewant img {
+    height: 25%;
+    position:absolute;
+}
+.hewant a {
+    display:block;
+    text-align: center;
+}
+.hewant h1{
+    text-align: center;
+}
+.i1 {
+    rotate: 20deg;  
+    left: 60%;
+    top: 90%;
+}
+.i2 {
+    rotate: 10deg;
+    left: 10%;
+    top: 20%;
+}
+.i3 {
+    rotate: -20deg;
+    left: 60%;
+    top: 50%;
+}
+.i4 {
+    rotate: -20deg;
+    left: 5%;
+    top: 90%;
+}
+.i5 {
+    rotate: -40deg;
+    left: 55%;
+    top: 20%;
+}
+.i6 {
+    rotate: -20deg;
+    left: 10%;
+    top: 46%;
+}
+.i7 {
+    rotate: 30deg;
+    left: 30%;
+    top: 65%;
 }
